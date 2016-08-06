@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^BlockDone)(id data);
+typedef void(^BlockFailed)(NSString *errorMessage);
+
 @interface RegisterPushNotificationsTask : NSObject
 
 @end
